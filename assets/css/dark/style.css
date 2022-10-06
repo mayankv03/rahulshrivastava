@@ -49,8 +49,8 @@ Primary use:    pxdraft
   height: 2px;
   margin: auto;
   box-shadow: 0px -8px 0 0px currentColor, 0px 8px 0 0px currentColor;
-  background: #2D82B5;
-  color: #2D82B5;
+  background: #03A9F4;
+  color: #03A9F4;
 }
 
 @media (min-width: 992px) {
@@ -75,11 +75,13 @@ Primary use:    pxdraft
   }
 
   .main-header .navbar-brand {
-    /* color: #2D82B5; */
+    /* color: #03A9F4; */
     font-weight: 700;
     font-size: 28px;
     line-height: 1;
-    background: -webkit-linear-gradient(45deg, rgb(48, 122, 250), rgb(2, 221, 16));
+    /* background: -webkit-linear-gradient(#8BC34A,#03A9F4) */
+    /* background: -webkit-linear-gradient(45deg, #03A9F4, rgb(2, 221, 16)); */
+    background: -webkit-linear-gradient(45deg, #03A9F4, #8BC34A);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   }
@@ -105,24 +107,24 @@ Primary use:    pxdraft
     left: auto;
     right: 0;
     height: 4px;
-    background: #2D82B5;
+    background: #03A9F4;
     width: 0px;
     transition: ease all 0.35s;
   }
 
   .main-header .navbar-nav>li>a.active {
-    color: #2D82B5;
+    color: #03A9F4;
   }
 
   .main-header .navbar-nav>li>a.active:after {
-    color: #2D82B5;
+    color: #03A9F4;
     left: 0;
     right: auto;
     width: 100%;
   }
 
   .main-header .navbar-nav>li:hover>a:after {
-    color: #2D82B5;
+    color: #03A9F4;
     left: 0;
     right: auto;
     width: 100%;
@@ -157,7 +159,7 @@ Primary use:    pxdraft
   }
 
   .main-header .navbar-brand {
-    color: #2D82B5;
+    color: #03A9F4;
     font-weight: 700;
     font-size: 20px;
     line-height: 1;
@@ -178,7 +180,7 @@ Primary use:    pxdraft
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 0.05rem;
-    color: #2D82B5;
+    color: #03A9F4;
   }
 
   .main-header .navbar-nav>li>a.active {
@@ -491,7 +493,7 @@ Primary use:    pxdraft
 .tag-cloud a {
   padding: 4px 15px;
   font-size: 13px;
-  color: #2D82B5;
+  color: #03A9F4;
   background: #001e35;
   border-radius: 3px;
   margin-right: 4px;
@@ -1004,7 +1006,7 @@ body {
 }
 
 .home-banner .min-vh-100 {
-  padding-top: 100px;
+  /* padding-top: 100px; */
   padding-bottom: 100px;
 }
 
@@ -1073,7 +1075,7 @@ body {
   width: 200vw;
   border: 10px solid rgb(2, 221, 16);
   border-radius: 310px;
-  background: #035080;/* #011627 */
+  background: rgb(5, 125, 254);/* #011627 */
 }
 
 @media (max-width: 767px) {
@@ -1151,7 +1153,7 @@ body {
   left: 0;
   width: 120px;
   height: 3px;
-  background: #2D82B5;
+  background: #03A9F4;
 }
 
 .home-banner .typo-box h2 {
