@@ -182,7 +182,7 @@ Primary use:    pxdraft
   }
 
   .main-header .navbar-nav>li>a.active {
-    color: #f71735;
+    color: rgb(2, 221, 16);
   }
 }
 
@@ -209,7 +209,7 @@ Primary use:    pxdraft
 }
 
 .footer .nav a:hover {
-  color: #f71735;
+  color: rgb(2, 221, 16);
 }
 
 .footer p {
@@ -307,7 +307,7 @@ Primary use:    pxdraft
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 0.1rem;
-  color: #f71735;
+  color: rgb(2, 221, 16);
   border-bottom: 1px solid;
 }
 
@@ -347,8 +347,8 @@ Primary use:    pxdraft
 }
 
 .pagination .page-item .page-link:hover {
-  background: #f71735;
-  border-color: #f71735;
+  background: rgb(2, 221, 16);
+  border-color: rgb(2, 221, 16);
   color: #fff;
 }
 
@@ -357,8 +357,8 @@ Primary use:    pxdraft
 }
 
 .pagination .page-item.active .page-link {
-  background: #f71735;
-  border-color: #f71735;
+  background: rgb(2, 221, 16);
+  border-color: rgb(2, 221, 16);
   color: #fff;
 }
 
@@ -396,7 +396,7 @@ Primary use:    pxdraft
   left: 0;
   width: 50px;
   height: 3px;
-  background: #f71735;
+  background: rgb(2, 221, 16);
 }
 
 .blog-aside .widget-title h3 {
@@ -500,7 +500,7 @@ Primary use:    pxdraft
 }
 
 .tag-cloud a:hover {
-  background: #f71735;
+  background: rgb(2, 221, 16);
   color: #fff;
 }
 
@@ -645,12 +645,12 @@ img {
 }
 
 a {
-  color: #f71735;
+  color: rgb(2, 221, 16);
   text-decoration: none;
 }
 
 a:hover {
-  color: #de0824;
+  color: rgb(2, 221, 16);
   text-decoration: none;
 }
 
@@ -1030,7 +1030,7 @@ body {
   text-align: center;
   line-height: 30px;
   margin: 5px;
-  color: #fff;
+  color: #057dfe;
   border-radius: 3px;
 }
 
@@ -1071,7 +1071,7 @@ body {
   top: 0;
   left: 0;
   width: 200vw;
-  border: 10px solid #f71735;
+  border: 10px solid rgb(2, 221, 16);
   border-radius: 310px;
   background: #035080;/* #011627 */
 }
@@ -1550,11 +1550,11 @@ body {
 }
 .placeholder h5 {
   -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #ffffff;
-  font-size: 10vw;
+  -webkit-text-stroke-color: #057dfe;
+  font-size: 8vw;
   color: transparent;
   margin: 0;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: uppercase;
   line-height: 1;
   letter-spacing: 0.8rem;
@@ -1614,7 +1614,7 @@ body {
   margin: auto;
   width: 35px;
   height: 3px;
-  background: #f71735;
+  background: rgb(2, 221, 16);
 }
 
 .section-title h2 span:before {
